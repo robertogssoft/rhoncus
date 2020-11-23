@@ -27,7 +27,7 @@
   $mensajeCompleto .= "Enviado el " .date('d/m/Y', time());
   
 
-  $destinatario = 'contacto@gruporhoncus.com';
+  $destinatario = 'jofreroda@gmail.com';
 
   mail($destinatario, utf8_decode($subject), utf8_decode($mensajeCompleto), $header);
 
