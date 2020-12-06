@@ -7,6 +7,24 @@
 !(function($) {
   "use strict";
 
+  //Idioma
+  $("#idioma").click(() => {
+    const value = $("#idioma").html();
+    let id = "es";
+    if (value === "English") {
+      id = "en";
+      $("#idioma").html("Español");
+    } else {
+      $("#idioma").html("English");
+    }
+
+    $.getJSON("assets/js/idioma.json",(json) => {
+      for(const v in json){
+        $(`#${v}`).html(json[v][id]);
+      }
+    });
+  });
+
   // Preloader
   $(window).on('load', function() {
     if ($('#preloader').length) {
@@ -120,7 +138,7 @@
     $(".mobile-nav, .mobile-nav-toggle").hide();
   }
   // Toggle .header-scrolled class to #header when page is scrolled
-  $(window).scroll(function() {
+  /*$(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
       $('#topbar').addClass('topbar-scrolled');
@@ -133,7 +151,7 @@
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
     $('#topbar').addClass('topbar-scrolled');
-  }
+  }*/
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {

@@ -1,0 +1,366 @@
+{
+  "menu_about": {
+    "en":"About",
+    "es": "Acerca de"
+  },
+  "menu_serv": {
+    "en": "Services",
+    "es": "Servicios"
+  },
+  "menu_type": {
+    "en": "Types of Surgery",
+    "es": "Tipos de Cirugía"
+  },
+  "menu_team": {
+    "en": "Team",
+    "es": "Nuestro Equipo"
+  },
+  "menu_pics": {
+    "en": "Gallery",
+    "es": "Galería"
+  },
+  "menu_testy": {
+    "en": "Testimonials",
+    "es": "Testimonios"
+  },
+  "menu_partners": {
+    "en": "Partners",
+    "es": "Colaboradores"
+  },
+  "menu_contact": {
+    "en": "Conctact",
+    "es": "Contacto"
+  },
+  "head_1": {
+    "en": "Welcome to Rhoncus Group",
+    "es": "Bienvenido a Grupo Rhoncus"
+  },
+  "head_2": {
+    "en": "Nice to meet you",
+    "es": "Encantados de Conocerte"
+  },
+  "head_3": {
+    "en": "Start",
+    "es": "Empezar"
+  },
+  "info_1": {
+    "en": "We are a group of specialists in cosmetic and reconstruction surgery",
+    "es": "Somos un grupo de especialistas en cirugía estética y de reconstrucción"
+  },
+  "info_2": {
+    "en": "Face and body surgery Looking good and feeling good is today",
+    "es": "Cirugía de rostro y de cuerpo Verte bien y sentirte bien es lo de hoy"
+  },
+  "info_3": {
+    "en": "Your health and your beauty in the best hands",
+    "es": "Tu salud y tu belleza en las mejores manos"
+  },
+  "about_1": {
+    "en": "About US",
+    "es": "Acerca de Nosotros"
+  },
+  "about_2": {
+    "en": "History",
+    "es": "Nuestra Historia"
+  },
+  "about_3": {
+    "en": "Our group was formed in 2016, with the intention of materializing a true, minimally invasive transformation in AESTHETIC SURGERY. This is how a group of various professionals from different areas came together to give rise to a vision: the Mexican Aesthetic and Reconstruction Surgical Practice, under the meaning of “HAND MADE”",
+    "es": "Nuestro grupo se forma en el año 2016, con la intención de materializar una verdadera transformación, de mínima invasión, en la CIRUGÍA ESTÉTICA. Fue así como un conjunto de varios profesionales de diversas áreas se unieron para dar origen a una visión: la Práctica Quirúrgica Estética y de Reconstrucción Mexicana, bajo el significado de “HECHO A MANO”"
+  },
+  "num_1": {
+    "en": "Doctors",
+    "es": "Doctores"
+  },
+  "num_2": {
+    "en": "Clinics",
+    "es": "Clinicas"
+  },
+  "serv_1": {
+    "en": "Services",
+    "es": "Servicios"
+  },
+  "serv_2": {
+    "en": "Our services that we offer you",
+    "es": "Nuestros servicios que te ofrecemos"
+  },
+  "serv_3": {
+    "en": "Aesthetic body surgery",
+    "es": "Cirugía de cuerpo estética"
+  },
+  "serv_4": {
+    "en": "Reconstruction face surgery",
+    "es": "Cirugía de rostro de reconstrucción"
+  },
+  "serv_5": {
+    "en": "Reconstruction Body Surgery",
+    "es": "Cirugía de cuerpo de reconstrucción"
+  },
+  "serv_6": {
+    "en": "Cosmetic face surgery",
+    "es": "Cirugía de rostro estética"
+  },
+  "type_1": {
+    "en": "Types of Surgeries",
+    "es": "Tipos de Cirugías"
+  },
+  "type_2": {
+    "en": "Our surgeries that we offer",
+    "es": "Nuestras Cirugías que ofrecemos"
+  },
+  "type_3": {
+    "en": "Aesthetic body surgery",
+    "es": "Cirugía de cuerpo estética"
+  },
+  "type_4": {
+    "en": "Reconstruction face surgery",
+    "es": "Cirugía de rostro de reconstrucción"
+  },
+  "type_5": {
+    "en": "Reconstruction Body Surgery",
+    "es": "Cirugía de cuerpo de reconstrucción"
+  },
+  "type_6": {
+    "en": "Cosmetic face surgery",
+    "es": "Cirugía de rostro estética"
+  },
+  "tab1_1": {
+    "en": "Aesthetic body surgery",
+    "es": "Cirugía de cuerpo estética"
+  },
+  "tab1_2": {
+    "en": "  Blepharoplasty: ",
+    "es": "  Blefaroplastía: "
+  },
+  "tab1_3": {
+    "en": "Cleaning the ocular region of excess skin that prevents a normal eye, as well as denoting youth to the face region.",
+    "es": "Limpieza de la región ocular de piel excedente que evita lucir un ojo normal, así como denotar juventud a la región de la cara."
+  },
+  "tab1_4": {
+    "en": "Catoplexy:",
+    "es": "Catoplexía:"
+  },
+  "tab1_5": {
+    "en": "Raising the tail of the eyebrow.",
+    "es": "Levantamiento de la cola de la ceja."
+  },
+  "tab1_6": {
+    "en": "Rhinoplasty:",
+    "es": "Rinoplastía:"
+  },
+  "tab1_7": {
+    "en": "Lifting and replacement of the nasal structures that will denote a change in the face and will ensure total harmony.",
+    "es": "Levantamiento y reposición de las estructuras nasales que denotaran un cambio en la cara y aseguraran armonía total."
+  },
+  "tab1_8": {
+    "en": "Facial:",
+    "es": "Facial:"
+  },
+  "tab1_9": {
+    "en": "Set of surgical and aesthetic medicine techniques that cover the forehead, eyelids, cheekbones, skin and lips, which allow you to regain joviality and style.",
+    "es": "Conjunto de técnicas quirúrgicas y de medicina estética que abarcan frente, párpados, pómulos, piel y labios, que te permiten recuperar jovialidad y estilo."
+  },
+  "tab1_10": {
+    "en": "Bichectomy:",
+    "es": "Bichectomía:"
+  },
+  "tab1_11": {
+    "en": "Extraction of excess fat from the cheeks to slim the face.",
+    "es": "Extracción de exceso de grasa de las mejillas para adelgazar el rostro."
+  },
+  "tab1_12": {
+    "en": "Rhytidoplasty:",
+    "es": "Ritidoplastía:"
+  },
+  "tab1_13": {
+    "en": "Repositioning of the structures on the face (SMAS) that weaken and generate excess expression lines, smoothing the skin and denoting youth.",
+    "es": "Reposición de las estructuras en cara (SMAS) que debilitan y generan exceso de líneas de expresión, alisando la piel y denotando juventud."
+  },
+  "tab2_1": {
+    "en": "Reconstruction face surgery",
+    "es": "Cirugía de rostro de reconstrucción"
+  },
+  "tab2_2": {
+    "en": "Functional blepharoplasty:",
+    "es": "Blefaroplastía funcional:"
+  },
+  "tab2_3": {
+    "en": "Removal of excess skin, when it does not allow normal vision function.",
+    "es": "Retiro del exceso de piel, cuando ésta no permite realizar la función normal de visión."
+  },
+  "tab2_4": {
+    "en": "Plasty of the Malar Region:",
+    "es": "Plastía de la Región Malar:"
+  },
+  "tab2_5": {
+    "en": "Replacement of fatty tissue of the cheekbone",
+    "es": "Reposición de tejido graso del pómulo."
+  },
+  "tab2_6": {
+    "en": "Rino-Septum Plasty:",
+    "es": "Rino-Septum Plastía:"
+  },
+  "tab2_7": {
+    "en": "Recovers normal breathing function.",
+    "es": "Recobra la función de respiración normal."
+  },
+  "tab2_8": {
+    "en": "Chin plasty:",
+    "es": "Plastía del mentón:"
+  },
+  "tab2_9": {
+    "en": "It complements the harmony that has not been had in the face.",
+    "es": "Complementa la armonía que no se ha tenido en el rostro."
+  },
+  "tab2_10": {
+    "en": "Other:",
+    "es": "Otras:"
+  },
+  "tab2_11": {
+    "en": "Reconstruction of fractures, skin losses or complete regions of the face. Removal and extraction of nevi or tumors, which generate commitment to the face.",
+    "es": "Reconstrucción de fracturas, pérdidas cutáneas o de regiones completas en cara. Retiro y extracción de nevos o tumores, que generen compromiso en cara."
+  },
+  "tab3_1": {
+    "en": "Reconstruction Body Surgery",
+    "es": "Cirugía de cuerpo de reconstrucción"
+  },
+  "tab3_2": {
+    "en": "Labiaplasty:",
+    "es": "Labioplastia:"
+  },
+  "tab3_3": {
+    "en": "After evaluation, the method is chosen to improve the external appearance of the female genitalia.",
+    "es": "Previa evaluación, se elige el método para mejorar el aspecto externo de los genitales femeninos."
+  },
+  "tab3_4": {
+    "en": "Abdominoplasty:",
+    "es": "Abdominoplastia:"
+  },
+  "tab3_5": {
+    "en": "Removal of excess dermo-fatty tissue from the abdominal region + opening closure in abdominal muscles.",
+    "es": "Retiro de tejido dermo-graso excedente de la región abdominal + cierre de apertura en músculos abdominales."
+  },
+  "tab3_6": {
+    "en": "Breast reconstruction:",
+    "es": "Reconstrucción mamaria:"
+  },
+  "tab3_7": {
+    "en": "After evaluation, the techniques that will return the aspect of femininity to the region and the confidence in the mastectomized woman are chosen.",
+    "es": "Previa evaluación, se eligen las técnicas que devolverán el aspecto de feminidad a la región y la confianza en la mujer mastectomizada."
+  },
+  "tab3_8": {
+    "en": "Braquio-Cruro Plasty:",
+    "es": "Braquio-Cruro Plastia:"
+  },
+  "tab3_9": {
+    "en": "Removal of dermo-fatty tissue from the arms and legs that allows the appearance and shape of these regions to be restored.",
+    "es": "Retiro de tejido dermo-graso de brazos y piernas que permite devolver el aspecto y forma a dichas regiones."
+  },
+  "tab3_10": {
+    "en": "Breast reduction:",
+    "es": "Reducción mamaria:"
+  },
+  "tab3_11": {
+    "en": "With or without implants, procedure for women and men.",
+    "es": "Con o sin implantes, procedimiento para mujeres y hombres."
+  },
+  "tab3_12": {
+    "en": "Vaginal rejuvenation:",
+    "es": "Rejuvenecimiento vaginal:"
+  },
+  "tab3_13": {
+    "en": "After evaluation, the surgical methods are chosen that will return the anatomy and joviality to the external and internal region of the female genitalia.",
+    "es": "Previa evaluación, se eligen los métodos quirúrgicos que devolverán la anatomía y jovialidad a la región externa e interna de los genitales femeninos."
+  },
+  "tab4_1": {
+    "en": "Cosmetic face surgery",
+    "es": "Cirugía de rostro estética"
+  },
+  "tab4_2": {
+    "en": "Blepharoplasty:",
+    "es": "Blefaroplastía:"
+  },
+  "tab4_3": {
+    "en": "Cleaning the ocular region of excess skin that prevents a normal eye, as well as denoting youth to the face region.",
+    "es": "Limpieza de la región ocular de piel excedente que evita lucir un ojo normal, así como denotar juventud a la región de la cara."
+  },
+  "tab4_4": {
+    "en": "Canthopexy:",
+    "es": "Cantopexia:"
+  },
+  "tab4_13": {
+    "en": "Raising the tail of the eyebrow.",
+    "es": "Levantamiento de la cola de la ceja."
+  },
+  "tab4_5": {
+    "en": "Rhinoplasty:",
+    "es": "Rinoplastía:"
+  },
+  "tab4_6": {
+    "en": "Lifting and replacement of the nasal structures that will denote a change in the face and will ensure total harmony.",
+    "es": "Levantamiento y reposición de las estructuras nasales que denotaran un cambio en la cara y aseguraran armonía total."
+  },
+  "tab4_7": {
+    "en": "Facial rejuvenation:",
+    "es": "Rejuvenecimiento facial:"
+  },
+  "tab4_8": {
+    "en": "Set of surgical and aesthetic medicine techniques that cover the forehead, eyelids, cheekbones, skin and lips, which allow you to regain joviality and style.",
+    "es": "Conjunto de técnicas quirúrgicas y de medicina estética que abarcan frente, párpados, pómulos, piel y labios, que te permiten recuperar jovialidad y estilo."
+  },
+  "tab4_9": {
+    "en": "Bichectomy:",
+    "es": "Bichectomía:"
+  },
+  "tab4_10": {
+    "en": "Extraction of excess fat from the cheeks to slim the face.",
+    "es": "Extracción de exceso de grasa de las mejillas para adelgazar el rostro."
+  },
+  "tab4_11": {
+    "en": "Rhytidoplasty:",
+    "es": "Ritidoplastía:"
+  },
+  "tab4_12": {
+    "en": "Repositioning of the structures on the face (SMAS) that weaken and generate excess expression lines, smoothing the skin and denoting youth.",
+    "es": "Reposición de las estructuras en cara (SMAS) que debilitan y generan exceso de líneas de expresión, alisando la piel y denotando juventud."
+  },
+  "team_1": {
+    "en": "Team",
+    "es": "Nuestro Equipo"
+  },
+  "team_3": {
+    "en": "General Surgeon.",
+    "es": "Medico Cirujano General."
+  },
+  "team_4": {
+    "en": "Aesthetic and Reconstruction Surgery.",
+    "es": "Cirugía Estética y de Reconstrucción."
+  },
+  "team_6": {
+    "en": "Medicina Estética Cirugía Estética y Estética reconstructiva.",
+    "es": "Medicina Estética Cirugía Estética y Estética reconstructiva."
+  },
+  "team_8": {
+    "en": "General Surgeon.",
+    "es": "Médico Cirujano General."
+  },
+  "team_9": {
+    "en": "Aesthetic and Reconstruction Surgery",
+    "es": " Cirugía Estética y de Reconstrucción"
+  },
+  "gallery": {
+    "en": "Gallery",
+    "es": "Galería"
+  },
+  "testi_1": {
+    "en": "Testimonials",
+    "es": "Testimonios"
+  },
+  "contact_1": {
+    "en": "Contact",
+    "es": "Contacto"
+  },
+  "contact_2": {
+    "en": "Location",
+    "es": "Localización"
+  }
+}

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-mx">
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Grupo Rhoncus</title>
-  <meta content="" name="descriptison">
+  <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
@@ -33,15 +33,16 @@
 </head>
 <body>
 
-<!-- ======= Top Bar ======= -->
-<div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
+<!-- ======= Top Bar =======d-none d-lg-flex -->
+<div id="topbar" class=" align-items-center fixed-top">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
-        <i class="icofont-envelope"></i> <a href="rhoncuscirugia@gmail.com">rhoncuscirugia@gmail.com</a>
+        <i class="icofont-envelope"></i> <a href="#">rhoncuscirugia@gmail.com</a>
       </div>
       <div class="social-links">
-        <a href="https://www.facebook.com/gruporhoncus/" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="https://www.instagram.com/gruporhoncus/" class="instagram"><i class="icofont-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/gruporhoncus/" class="facebook"><i class="icofont-facebook"></i></a>
+        <a target="_blank" href="https://www.instagram.com/gruporhoncus/" class="instagram"><i class="icofont-instagram"></i></a>
+        <a id="idioma" href="#" class="instagram">English</a>
       </div>
     </div>
 </div>
@@ -56,14 +57,14 @@
         <nav class="nav-menu d-none d-lg-block">
             <ul>
             <li class="active"><a href="index.html">Rhoncus</a></li>
-            <li><a href="#about">Acerca de</a></li>
-            <li><a href="#services">Servicios</a></li>
-            <li><a href="#departments">Tipos de Cirugía</a></li>
-            <li><a href="#doctors">Nuestro Equipo</a></li>
-            <li><a href="#gallery">Galería</a></li>
-            <li><a href="#testimonials">Testimonios</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#miModal">Colaboradores</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#about" id="menu_about">Acerca de</a></li>
+            <li><a href="#services" id="menu_serv">Servicios</a></li>
+            <li><a href="#departments" id="menu_type">Tipos de Cirugía</a></li>
+            <li><a href="#doctors" id="menu_team">Nuestro Equipo</a></li>
+            <li><a href="#gallery" id="menu_pics">Galería</a></li>
+            <li><a href="#testimonials" id="menu_testy">Testimonios</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#miModal" id="menu_partners">Colaboradores</a></li>
+            <li><a href="#contact" id="menu_contact">Contacto</a></li>
 
             </ul>
         </nav><!-- .nav-menu -->
@@ -74,9 +75,9 @@
  <!-- ======= Hero Sección ======= -->
  <section id="hero" class="d-flex align-items-center">
     <div class="container">
-      <h1>Bienvenido a Grupo Rhoncus</h1>
-      <h2>Encantados de Conocerte</h2>
-      <a href="#about" class="btn-get-started scrollto">Empezar</a>
+      <h1 id="head_1">Bienvenido a Grupo Rhoncus</h1>
+      <h2 id="head_2">Encantados de Conocerte</h2>
+      <a href="#about" class="btn-get-started scrollto" id="head_3">Empezar</a>
     </div>
 </section><!-- Fin Hero -->
 
@@ -92,19 +93,19 @@
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="bx bx-user"></i>
-                      <p>Somos un grupo de especialistas en cirugía <strong>estética</strong> y de <strong>reconstrucción</strong></p>
+                      <p id="info_1">Somos un grupo de especialistas en cirugía <strong>estética</strong> y de <strong>reconstrucción</strong></p>
                     </div>
                   </div>
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="bx bx-heart"></i>
-                      <p>Cirugía de rostro y de cuerpo <strong>Verte bien</strong> y sentirte bien es lo de hoy</p>
+                      <p id="info_2">Cirugía de rostro y de cuerpo <strong>Verte bien</strong> y sentirte bien es lo de hoy</p>
                     </div>
                   </div>
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="bx bx-donate-heart"></i>
-                      <p>Tu salud y tu belleza en las mejores manos</p>
+                      <p id="info_3">Tu salud y tu belleza en las mejores manos</p>
                     </div>
                   </div>
                 </div>
@@ -124,13 +125,13 @@
               
             </div>
             <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-              <h3>Acerca de Nosotros</h3>
-              <p>Nuestra Historia</p>
+              <h3 id="about_1">Acerca de Nosotros</h3>
+              <p id="about_2">Nuestra Historia</p>
   
               <div class="icon-box">
                 <div class="icon"><i class="icofont-page"></i></div>
                 
-                <p class="description">Nuestro grupo se forma en el año 2016, con la intención de materializar una verdadera transformación, de mínima invasión, en la CIRUGÍA ESTÉTICA. Fue así como un conjunto de varios profesionales de diversas áreas se unieron para dar origen a una visión: la Práctica Quirúrgica Estética y de Reconstrucción Mexicana, bajo el significado de “HECHO A MANO”</p>
+                <p class="description" id="about_3">Nuestro grupo se forma en el año 2016, con la intención de materializar una verdadera transformación, de mínima invasión, en la CIRUGÍA ESTÉTICA. Fue así como un conjunto de varios profesionales de diversas áreas se unieron para dar origen a una visión: la Práctica Quirúrgica Estética y de Reconstrucción Mexicana, bajo el significado de “HECHO A MANO”</p>
               </div>
             </div>
           </div>
@@ -152,14 +153,14 @@
           <div class="count-box">
             <i class="icofont-doctor"></i>
             <span data-toggle="counter-up">3</span>
-            <p>Doctores</p>
+            <p id="num_1">Doctores</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-5 mt-5 mt-md-0">
           <div class="count-box">
             <i class="icofont-patient-bed"></i>
             <span data-toggle="counter-up">6</span>
-            <p>Clinicas</p>
+            <p id="num_2">Clinicas</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-5 mt-5 mt-md-0">
@@ -174,36 +175,37 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Servicios</h2>
-        <p>Nuestros servicios que te ofrecemos</p>
+        <h2 id="serv_1">Servicios</h2>
+        <p id="serv_2">Nuestros servicios que te ofrecemos</p>
       </div>
 
       <div class="row">
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          
           <div class="icon-box">
             <div class="icon"><i class="icofont-leg"></i></div>
-            <h4><a href="">Cirugía de cuerpo estética</a></h4>
+            <h4><a data-toggle="tab" href="#tab-1" class="scrollto" id="serv_3">Cirugía de cuerpo estética</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div class="icon-box">
             <div class="icon"><i class="icofont-beard"></i></div>
-            <h4><a href="">Cirugía de rostro de reconstrucción</a></h4>
+            <h4><a data-toggle="tab" href="#tab-2" class="scrollto" id="serv_4">Cirugía de rostro de reconstrucción</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
           <div class="icon-box">
             <div class="icon"><i class="icofont-stretcher"></i></div>
-            <h4><a href="">Cirugía de cuerpo de reconstrucción</a></h4>
+            <h4><a data-toggle="tab" href="#tab-3" class="scrollto" id="serv_5">Cirugía de cuerpo de reconstrucción</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="icofont-icu"></i></div>
-            <h4><a href="">Cirugía de rostro estética</a></h4>
+            <h4><a data-toggle="tab" href="#tab-4" class="scrollto" id="serv_6">Cirugía de rostro estética</a></h4>
           </div>
         </div>
       </div>
@@ -216,24 +218,24 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Tipos de Cirugías</h2>
-        <p>Nuestras Cirugías que ofrecemos</p>
+        <h2 id="type_1">Tipos de Cirugías</h2>
+        <p id="type_2">Nuestras Cirugías que ofrecemos</p>
       </div>
 
       <div class="row">
         <div class="col-lg-3">
           <ul class="nav nav-tabs flex-column">
             <li class="nav-item">
-              <a class="nav-link active show" data-toggle="tab" href="#tab-1">Cirugía de cuerpo estética</a>
+              <a class="nav-link active show" data-toggle="tab" href="#tab-1" id="type_3">Cirugía de cuerpo estética</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-2">Cirugía de rostro de reconstrucción</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-2" id="type_4">Cirugía de rostro de reconstrucción</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-3">Cirugía de cuerpo de reconstrucción</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-3" id="type_5">Cirugía de cuerpo de reconstrucción</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-4">Cirugía de rostro estética</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-4" id="type_6">Cirugía de rostro estética</a>
             </li>
           </ul>
         </div>
@@ -242,38 +244,39 @@
             <div class="tab-pane active show" id="tab-1">
               <div class="row">
                 <div class="col-lg-8 details order-2 order-lg-1">
-                  <h3>Cirugía de cuerpo estética</h3>
-                  <p><strong>  Blefaroplastía: </strong>
-
+                  <h3 id="tab1_1">Cirugía de cuerpo estética</h3>
+                  <p><strong id="tab1_2">  Blefaroplastía: </strong>
+                    <span id="tab1_3">
                     Limpieza de la región ocular de piel excedente que evita lucir un ojo normal, así como denotar juventud a la región de la cara.
-                    
+                  </span>
                      
                     <br><br>
-                    <strong>Catoplexía:</strong> Levantamiento de la cola de la ceja.
+                    <strong id="tab1_4">Catoplexía:</strong> <span id="tab1_5">Levantamiento de la cola de la ceja.</span>
                     
                     <br><br>
                     
-                    <strong>Rinoplastía:</strong>
-                    
+                    <strong id="tab1_6">Rinoplastía:</strong>
+                    <span id="tab1_7">
                     Levantamiento y reposición de las estructuras nasales que denotaran un cambio en la cara y aseguraran armonía total.
-                    
+                    </span>
                     <br><br> 
                     
-                  <strong>Facial:</strong>
-                    
+                  <strong id="tab1_8">Facial:</strong>
+                    <span id="tab1_9">
                     Conjunto de técnicas quirúrgicas y de medicina estética que abarcan frente, párpados, pómulos, piel y labios, que te permiten recuperar jovialidad y estilo.
-                    
+                  </span>
                      
                     <br><br>
-                    <strong>Bichectomía:</strong>
-                    
+                    <strong id="tab1_10">Bichectomía:</strong>
+                    <span id="tab1_11">
                     Extracción de exceso de grasa de las mejillas para adelgazar el rostro.
-                    
+                  </span>
                      
                     <br><br>
-                    <strong>Ritidoplastía:</strong>
-                    
-                    Reposición de las estructuras en cara (SMAS) que debilitan y generan exceso de líneas de expresión, alisando la piel y denotando juventud.</p>
+                    <strong id="tab1_12">Ritidoplastía:</strong>
+                    <span id="tab1_13">
+                    Reposición de las estructuras en cara (SMAS) que debilitan y generan exceso de líneas de expresión, alisando la piel y denotando juventud.
+                  </span></p>
                 </div>
                 <div class="col-lg-4 text-center order-1 order-lg-2">
                   <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
@@ -283,36 +286,38 @@
             <div class="tab-pane" id="tab-2">
               <div class="row">
                 <div class="col-lg-8 details order-2 order-lg-1">
-                  <h3>Cirugía de rostro de reconstrucción</h3>
+                  <h3 id="tab2_1">Cirugía de rostro de reconstrucción</h3>
                   <p>
-                    <strong>Blefaroplastía funcional:</strong>
-
+                    <strong id="tab2_2">Blefaroplastía funcional:</strong>
+                    <span id="tab2_3">
                     Retiro del exceso de piel, cuando ésta no permite realizar la función normal de visión.
+                  </span>
                     <br><br>
                      
                     
-                    <strong>Plastía de la Región Malar:</strong>
-                    
+                    <strong id="tab2_4">Plastía de la Región Malar:</strong>
+                    <span id="tab2_5">
                     Reposición de tejido graso del pómulo.
-                    
+                    </span>
                     <br><br> 
                     
-                    <strong>Rino-Septum Plastía:</strong>
-                    
+                    <strong id="tab2_6">Rino-Septum Plastía:</strong>
+                    <span id="tab2_7">
                     Recobra la función de respiración normal.
-                    
+                    </span>
                     <br><br>   
                   
-                    <strong>Plastía del mentón:</strong>
-                    
+                    <strong id="tab2_8">Plastía del mentón:</strong>
+                    <span id="tab2_9">
                     Complementa la armonía que no se ha tenido en el rostro.
+                    </span>
                     <br><br>
-                    <strong>Otras:</strong>
-                    
+                    <strong id="tab2_10">Otras:</strong>
+                    <span id="tab2_11">
                     Reconstrucción de fracturas, pérdidas cutáneas o de regiones completas en cara.
                     
                     Retiro y extracción de nevos o tumores, que generen compromiso en cara.
-                    
+                    </span>
                     </p>
                 </div>
                 <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -323,30 +328,35 @@
             <div class="tab-pane" id="tab-3">
               <div class="row">
                 <div class="col-lg-8 details order-2 order-lg-1">
-                  <h3>Cirugía de cuerpo de reconstrucción</h3>
-                  <p><strong>Labioplastia:</strong>
-
+                  <h3 id="tab3_1">Cirugía de cuerpo de reconstrucción</h3>
+                  <p><strong id="tab3_2">Labioplastia:</strong>
+                    <span id="tab3_3">
                     Previa evaluación, se elige el método para mejorar el aspecto externo de los genitales femeninos.
+                    </span>
                     <br><br>
-                    <strong>Abdominoplastia:</strong>
-                    
+                    <strong id="tab3_4">Abdominoplastia:</strong>
+                    <span id="tab3_5">
                     Retiro de tejido dermo-graso excedente de la región abdominal + cierre de apertura en músculos abdominales.
+                    </span>
                     <br><br>
-                    <strong>Reconstrucción mamaria:</strong>
-                    
+                    <strong id="tab3_6">Reconstrucción mamaria:</strong>
+                    <span id="tab3_7">
                     Previa evaluación, se eligen las técnicas que devolverán el aspecto de feminidad a la región y la confianza en la mujer mastectomizada.
+                    </span>
                     <br><br>
-                    <strong>Braquio-Cruro Plastia:</strong>
-                    
+                    <strong id="tab3_8">Braquio-Cruro Plastia:</strong>
+                    <span id="tab3_9">
                     Retiro de tejido dermo-graso de brazos y piernas que permite devolver el aspecto y forma a dichas regiones.
+                    </span>
                     <br><br>
-                    <strong>Reducción mamaria:</strong>
-                    
+                    <strong id="tab3_10">Reducción mamaria:</strong>
+                    <span id="tab3_11">
                     Con o sin implantes, procedimiento para mujeres y hombres.
+                    </span>
                     <br><br>
-                    <strong>Rejuvenecimiento vaginal:</strong>
-                    
-                    Previa evaluación, se eligen los métodos quirúrgicos que devolverán la anatomía y jovialidad a la región externa e interna de los genitales femeninos.</p>
+                    <strong id="tab3_12">Rejuvenecimiento vaginal:</strong>
+                    <span id="tab3_13">
+                    Previa evaluación, se eligen los métodos quirúrgicos que devolverán la anatomía y jovialidad a la región externa e interna de los genitales femeninos.</span></p>
                 </div>
                 <div class="col-lg-4 text-center order-1 order-lg-2">
                   <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
@@ -356,41 +366,40 @@
             <div class="tab-pane" id="tab-4">
               <div class="row">
                 <div class="col-lg-8 details order-2 order-lg-1">
-                  <h3>Cirugía de rostro estética</h3>
-                  <p><strong>Blefaroplastía:</strong>
-
+                  <h3 id="tab4_1">Cirugía de rostro estética</h3>
+                  <p><strong id="tab4_2">Blefaroplastía:</strong>
+                    <span id="tab4_3">
                     Limpieza de la región ocular de piel excedente que evita lucir un ojo normal, así como denotar juventud a la región de la cara.
+                  </span>
                     <br><br>
-                    <strong>Cantopexia:</strong>
-                    
+                    <strong id="tab4_4">Cantopexia:</strong>
+                    <span id="tab4_13">
                     Levantamiento de la cola de la ceja.
+                  </span>
                     <br><br>
-                    <strong>Rinoplastía:</strong>
+                    <strong id="tab4_5">Rinoplastía:</strong>
+                    <span id="tab4_6">
                     Levantamiento y reposición de las estructuras nasales que denotaran un cambio en la cara y aseguraran armonía total.
-                    <strong>Rejuvenecimiento facial:</strong>
+                  </span>
+                    <strong id="tab4_7">Rejuvenecimiento facial:</strong>
                     <br><br>
+                    <span id="tab4_8">
                     Conjunto de técnicas quirúrgicas y de medicina estética que abarcan frente, párpados, pómulos, piel y labios, que te permiten recuperar jovialidad y estilo.
+                  </span>
                     <br><br>
-                    <strong>Bichectomía:</strong>
+                    <strong id="tab4_9">Bichectomía:</strong>
+                    <span id="tab4_10">
                     Extracción de exceso de grasa de las mejillas para adelgazar el rostro.
+                  </span>
                     <br><br>
-                    <strong>Ritidoplastía:</strong>
-                    Reposición de las estructuras en cara (SMAS) que debilitan y generan exceso de líneas de expresión, alisando la piel y denotando juventud.</p>
+                    <strong id="tab4_11">Ritidoplastía:</strong>
+                    <span id="tab4_12">
+                    Reposición de las estructuras en cara (SMAS) que debilitan y generan exceso de líneas de expresión, alisando la piel y denotando juventud.
+                  </span></p>
+                    
                 </div>
                 <div class="col-lg-4 text-center order-1 order-lg-2">
                   <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane" id="tab-5">
-              <div class="row">
-                <div class="col-lg-8 details order-2 order-lg-1">
-                  <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                  <p class="font-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                  <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                </div>
-                <div class="col-lg-4 text-center order-1 order-lg-2">
-                  <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
                 </div>
               </div>
             </div>
@@ -406,7 +415,7 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Nuestro Equipo</h2>
+        <h2 id="team_1">Nuestro Equipo</h2>
       </div>
 
       <div class="row">
@@ -415,13 +424,13 @@
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="assets/img/Doctores/Dr-Luis-Manuel-Miranda.png" class="img-fluid" alt=""></div>
             <div class="member-info">
-              <h4>Dr. Luis Manuel Miranda</h4>
+              <h4 id="team_2">Dr. Luis Manuel Miranda</h4>
               
-              <p>Medico Cirujano General. <br>Cirugía Estética y de Reconstrucción.</p>
+              <p><span id="team_3">Medico Cirujano General.</span><br><span id="team_4">Cirugía Estética y de Reconstrucción.</span></p>
               <div class="social">
                 <a href=""><i class="ri-twitter-fill"></i></a>
                 <a href=""><i class="ri-facebook-fill"></i></a>
-                <a href=""><i class="ri-instagram-fill"></i></a>
+                <a target="_blank" href="https://www.instagram.com/luis_manuel_miranda/?hl=es-la"><i class="ri-instagram-fill"></i></a>
                 <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
               </div>
             </div>
@@ -432,8 +441,8 @@
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="assets/img/Doctores/Dr-German-Rodriguez.png" class="img-fluid" alt=""></div>
             <div class="member-info">
-              <h4>Dr. Germán Rodríguez Gómez</h4>
-              <p>Medicina Estética Cirugía Estética y Estética reconstructiva.</p>
+              <h4 id="team_5">Dr. Germán Rodríguez Gómez</h4>
+              <p id="team_6">Medicina Estética Cirugía Estética y Estética reconstructiva.</p>
               <div class="social">
                 <a href=""><i class="ri-twitter-fill"></i></a>
                 <a href=""><i class="ri-facebook-fill"></i></a>
@@ -448,13 +457,12 @@
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="assets/img/Doctores/Dr-Jorge-Rodriguez.png" class="img-fluid" alt=""></div>
             <div class="member-info">
-              <h4>Dr. Jorge F. Rodríguez A.</h4>
-              <p>Médico Cirujano General. <br> Cirugía Estética y de Reconstrucción</p>
+              <h4 id="team_7">Dr. Jorge F. Rodríguez A.</h4>
+              <p><span id="team_8">Médico Cirujano General.</span><br><span id="team_9">Cirugía Estética y de Reconstrucción</span></p>
               <div class="social">
-                <a href=""><i class="ri-twitter-fill"></i></a>
-                <a href=""><i class="ri-facebook-fill"></i></a>
-                <a href=""><i class="ri-instagram-fill"></i></a>
-                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100013506138161"><i class="ri-facebook-fill"></i></a>
+                <a target="_blank" href="https://www.instagram.com/dr_jofreroda/?hl=es-la"><i class="ri-instagram-fill"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/jorge-f-rodr%C3%ADguez-alvarado-0a2414149/?originalSubdomain=cl"> <i class="ri-linkedin-box-fill"></i> </a>
               </div>
             </div>
           </div>
@@ -469,7 +477,7 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Galería</h2>
+        <h2 id="gallery">Galería</h2>
       </div>
     </div>
 
@@ -596,7 +604,7 @@
   <section id="testimonials" class="testimonials section-bg">
     <div class="container">
       <div class="section-title">
-        <h2>Testimonios</h2>
+        <h2 id="testi_1">Testimonios</h2>
       </div>
 
       <div class="owl-carousel testimonials-carousel">
@@ -649,7 +657,7 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Contacto</h2>
+        <h2 id="contact_1">Contacto</h2>
       </div>
     </div>
 
@@ -662,29 +670,36 @@
           <div class="info">
             <div class="address">
               <i class="icofont-google-map"></i>
-              <h4>Localización:</h4>
-              <p>PACHUCA</p>
-              <p>QUERÉTARO</p>
-              <p>CDMX</p>
-              <p>LOS MOCHIS</p>
-              <p>SAHUAYO</p>
+              <h4 id="contact_2">Localización:</h4>
+              <p>
+                <strong id="contact_3">PACHUCA</strong>
+                <p id="contact_4">+52 771 5688102 y 7717953460</p>
+              </p>
+              <p>
+                <strong id="contact_5">QUERÉTARO</strong>
+                <p id="contact_6">+52 4426689411</p>
+              </p>
+              <p>
+                <strong id="contact_7">CDMX</strong>
+                <p id="contact_8">+52 5573071964 y 5545335386</p>
+              </p>
+              <p>
+                <strong id="contact_9">LOS MOCHIS</strong>
+                <p id="contact_10">+52 6681637681</p>
+              </p>
+              <p>
+                <strong id="contact_11">SAHUAYO</strong>
+                <p id="contact_12">+52 5545335386</p>
+              </p>
             </div>
 
             <div class="email">
               <i class="icofont-envelope"></i>
-              <h4>Email:</h4>
+              <h4 id="contact_13">Email:</h4>
               <p>rhoncuscirugia@gmail.com</p>
             </div>
 
-            <div class="phone">
-              <i class="icofont-phone"></i>
-              <h4>Llamanos:</h4>
-              <p>+52 771 5688102 y 7717953460</p>
-              <p>+52 4426689411</p>
-              <p>+52 5573071964 y 5545335386</p>
-              <p>+52 6681637681</p>
-              <p>+52 5545335386</p>
-            </div>
+            
 
           </div>
 
