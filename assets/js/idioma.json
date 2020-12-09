@@ -336,7 +336,7 @@
     "es": "Cirugía Estética y de Reconstrucción."
   },
   "team_6": {
-    "en": "Medicina Estética Cirugía Estética y Estética reconstructiva.",
+    "en": "Aesthetic Medicine Aesthetic and Aesthetic Reconstructive Surgery.",
     "es": "Medicina Estética Cirugía Estética y Estética reconstructiva."
   },
   "team_8": {
@@ -347,13 +347,9 @@
     "en": "Aesthetic and Reconstruction Surgery",
     "es": " Cirugía Estética y de Reconstrucción"
   },
-  "gallery": {
+  "gallery_1": {
     "en": "Gallery",
     "es": "Galería"
-  },
-  "testi_1": {
-    "en": "Testimonials",
-    "es": "Testimonios"
   },
   "contact_1": {
     "en": "Contact",
@@ -362,5 +358,10 @@
   "contact_2": {
     "en": "Location",
     "es": "Localización"
+  },
+
+  "testimonials": {
+    "en": "<div class='container'><div class='section-title'><h2 id='testi_1'>Testimonials</h2></div><div class='owl-carousel testimonials-carousel' id='testi_5'><div class='testimonial-wrap'><div class='testimonial-item'><img src='assets/img/Testimonios/Patricia-Q-150x150.jpeg' class='testimonial-img' alt='><h3>Patricia Q.</h3><h4>Querétaro</h4><p><i class='bx bxs-quote-alt-left quote-icon-left'></i><span id='testi_2'>Thank you very much for your attention, it's been 7 days and I'm already at work, I feel happy and my waist is getting smaller” (liposuction)</span><i class='bx bxs-quote-alt-right quote-icon-right'></i></p></div></div><div class='testimonial-wrap'><div class='testimonial-item'><img src='assets/img/Testimonios/Chayito-150x150.jpeg' class='testimonial-img' alt='><h3>Chayito</h3><h4>Hidalgo</h4><p><i class='bx bxs-quote-alt-left quote-icon-left'></i><span id='testi_3'>Thank you because I am someone else, God puts the right people in my way at the right time, thank you, thank you” (Abdominoplasty and liposuction)</span><i class='bx bxs-quote-alt-right quote-icon-right'></i></p></div></div><div class='testimonial-wrap'><div class='testimonial-item'><img src='assets/img/Testimonios/Alfredo-150x150.jpeg' class='testimonial-img' alt='><h3>Alfredo</h3><h4>Hidalgo</h4><p><i class='bx bxs-quote-alt-left quote-icon-left'></i><span id='testi_4'>Thank you for your attention and professionalism doctors and I want to share with you a phrase that I feel suits you very well, keep working in silence, because your results will make all the noise blessings and thanks again. Parry Romberg, correction of a previous graft scar 15 years ago...</span><i class='bx bxs-quote-alt-right quote-icon-right'></i></p></div></div>",
+    "es": "<div class='container'><div class='section-title'><h2 id='testi_1'>Testimonios</h2></div><div class='owl-carousel testimonials-carousel' id='testi_5'><div class='testimonial-wrap'><div class='testimonial-item'><img src='assets/img/Testimonios/Patricia-Q-150x150.jpeg' class='testimonial-img' alt='><h3>Patricia Q.</h3><h4>Querétaro</h4><p><i class='bx bxs-quote-alt-left quote-icon-left'></i><span id='testi_2'>Muchas gracias por sus atenciones, son 7 días y ya estoy en el trabajo, me siento feliz y cada vez más pequeña la cintura” (liposucción)</span><i class='bx bxs-quote-alt-right quote-icon-right'></i></p></div></div><div class='testimonial-wrap'><div class='testimonial-item'><img src='assets/img/Testimonios/Chayito-150x150.jpeg' class='testimonial-img' alt='><h3>Chayito</h3><h4>Hidalgo</h4><p><i class='bx bxs-quote-alt-left quote-icon-left'></i><span id='testi_3'>Gracias porque soy otra, Dios pone en mi camino a las personas justas en el momento justo, gracias , gracias”&nbsp; (Abdominoplastia y liposucción)</span><i class='bx bxs-quote-alt-right quote-icon-right'></i></p></div></div><div class='testimonial-wrap'><div class='testimonial-item'><img src='assets/img/Testimonios/Alfredo-150x150.jpeg' class='testimonial-img' alt='><h3>Alfredo</h3><h4>Hidalgo</h4><p><i class='bx bxs-quote-alt-left quote-icon-left'></i><span id='testi_4'>Gracias por sus atenciones y profesionalismo doctores y quiero compartirles una frase que siento les queda muy bien, “sigan trabajando en silencio, porque sus resultados harán todo el ruido” bendiciones y gracias de nuevo” (Relleno con grasa en el rostro pues padecía síndrome de Parry Romberg, corrección de cicatriz de injerto previo hace 15 años…</span><i class='bx bxs-quote-alt-right quote-icon-right'></i></p></div></div></div></div>"
   }
 }

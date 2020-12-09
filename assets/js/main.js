@@ -22,6 +22,7 @@
       for(const v in json){
         $(`#${v}`).html(json[v][id]);
       }
+      runTestimonial();
     });
   });
 
@@ -175,6 +176,23 @@
   });
 
   // Testimonials carousel (uses the Owl Carousel library)
+  runTestimonial();
+
+  // Initiate the venobox plugin
+  $(document).ready(function() {
+    $('.venobox').venobox();
+  });
+
+  // Initiate the datepicker plugin
+  $(document).ready(function() {
+    $('.datepicker').datepicker({
+      autoclose: true
+    });
+  });
+
+})(jQuery);
+
+function runTestimonial(){
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -191,17 +209,4 @@
       }
     }
   });
-
-  // Initiate the venobox plugin
-  $(document).ready(function() {
-    $('.venobox').venobox();
-  });
-
-  // Initiate the datepicker plugin
-  $(document).ready(function() {
-    $('.datepicker').datepicker({
-      autoclose: true
-    });
-  });
-
-})(jQuery);
+}
